@@ -7,4 +7,6 @@
 ./create.sh servers-stack servers.yaml servers-parameters.json  
 ```
 
-The application ip will be an output of the servers-stack
+* The bucket is already created, and the IAM role for the EC2 instances allows it to download (using aws cli) the udagram.zip file and unzip it at /var/www/html location 
+
+* The application URL will be an output of the servers-stack
